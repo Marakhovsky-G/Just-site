@@ -7,44 +7,78 @@
     <title>Просто сайт</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>1 пункт навигации</li>
-          <li><a href="form.html">Форма</a></li>
-          <li>3 пункт навигации</li>
-          <li>4 пункт навигации</li>
-          <li>???Вход???</li>
+    <header class="container">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--active"><a class="nav__link" href="#">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="form.html">Форма</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">3 пункт навигации</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">4 пункт навигации</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">???Вход???</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <h1>Просто сайт</h1>
-      <section>
-        <h2>Блоки контента</h2>
-        <ul>
+    <main class="container">
+      <h1 class="title">Просто сайт</h1>
+      <section class="blocks">
+        <h2 class="blocks__title">Блоки контента</h2>
+        <ul class="blocks__btn-list">
           <li>
-            <h3>Заголовок блока</h3>
-            <p>Тексовое напорнение блока, бессмысленное и беспощадное. Тексовое напорнение блока, бессмысленное и беспощадное.
+            <button class="button blocks__btn">Добавить блок</button>
+          </li>
+          <li>
+            <button class="button blocks__btn">Удалить блок</button>
+          </li>
+        </ul>
+        <ul class="blocks__list">
+          <li class="blocks__item">
+            <h3 class="blocks__item-title">Заголовок блока 1</h3>
+            <p class="blocks__text">Тексовое напорнение блока, бессмысленное и беспощадное. Тексовое напорнение блока, бессмысленное и беспощадное.
               Тексовое напорнение блока, <span>поясняющий спанчик</span> бессмысленное и беспощадное.</p>
-            <ul>
-              <li><button>Добавь текста</button></li>
-              <li><button>Добавить свое?</button></li>
-              <li><button>Удалить текст</button></li>
+            <ul class="blocks__item-btn-list">
+              <li>
+                <button class="button blocks__item-btn">Добавь текста</button>
+              </li>
+              <li>
+                <button class="button blocks__item-btn">Добавить свое?</button>
+              </li>
+              <li>
+                <button class="button blocks__item-btn ff">Удалить текст</button>
+              </li>
             </ul>
           </li>
-          <li>Блок контента 2</li>
-          <li>Блок контента 3</li>
-          <li>Блок контента 4</li>
-          <li>Блок контента 5</li>
-          <li>Блок контента 6</li>
+          <li class="blocks__item">
+            <h3 class="blocks__item-title">Заголовок блока 2</h3>
+            <p class="blocks__text">Тексовое напорнение блока, бессмысленное и беспощадное. Тексовое напорнение блока, бессмысленное и беспощадное.
+              Тексовое напорнение блока, <span>поясняющий спанчик</span> бессмысленное и беспощадное.</p>
+          </li>
+          <li class="blocks__item">
+            <h3 class="blocks__item-title">Заголовок блока 3</h3>
+            <p class="blocks__text">Тексовое напорнение блока, бессмысленное и беспощадное. Тексовое напорнение блока, бессмысленное и беспощадное.
+              Тексовое напорнение блока, <span>поясняющий спанчик</span> бессмысленное и беспощадное.</p>
+          </li>
+          <li class="blocks__item">
+            <h3 class="blocks__item-title">Заголовок блока 4</h3>
+            <p class="blocks__text">Тексовое напорнение блока, бессмысленное и беспощадное. Тексовое напорнение блока, бессмысленное и беспощадное.
+              Тексовое напорнение блока, <span>поясняющий спанчик</span> бессмысленное и беспощадное.</p>
+          </li>
+          <li class="blocks__item">
+            <h3 class="blocks__item-title">Заголовок блока 5</h3>
+          </li>
+          <li class="blocks__item">
+            <h3 class="blocks__item-title">Заголовок блока 6</h3>
+          </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <p>Просто футер</p>
+    <footer class="container footer">
+      <p class="footer__text">Просто футер</p>
+      <ul class="footer__contact-list">
+        <li class="footer__contact-item">Моя почта там и прочее</li>
+        <li class="footer__contact-item">Мб телефон</li>
+      </ul>
     </footer>
   </body>
 </html>

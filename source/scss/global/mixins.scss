@@ -1,0 +1,32 @@
+
+@mixin text($font_size, $line_height, $color) {
+  font-size: #{$font_size};
+  line-height: #{$line_height};
+  color: #{$color};
+}
+
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin mobile {
+  @media (min-width: $mobile-width) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
+
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Просто сайт</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
+          <li class="nav__item nav__item--active"><a class="nav__link" href="#">Форма</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">3 пункт навигации</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">4 пункт навигации</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">???Вход???</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="title">Формочка</h1>
+      <form action="https://echo.htmlacademy.ru" method="post" autocomplete="off">
+        <fieldset class="form__userpic">
+          <ul>
+            <li>
+              <input type="file" id="upload-file" name="filename" required>
+              <label for="upload-file">Загрузить аватарку</label>
+            </li>
+            <li>
+              <label for="user-hashtag">Добавить хэштеги:</label>
+              <input type="text" name="user-hashtag" id="user-hashtag" placeholder="#hashtag">
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="form__user">
+          <ul class="form__user-contacts">
+            <li>
+              <label for="user-name">Имя:</label>
+              <input type="text" name="user-name" id="user-name" placeholder="Ваше имя">
+            </li>
+            <li>
+              <label for="user-mobile">Телефон:</label>
+              <input type="tel" name="user-mobile" id="user-mobile" placeholder="+7 (999)888-77-66">
+            </li>
+            <li>
+              <label for="user-email">E-mail:</label>
+              <input type="email" name="user-email" id="user-email" placeholder="User@mail.com">
+            </li>
+          </ul>
+          <ul class="form__user-checkbox">
+            <li>
+              <label for="checkbox-1">Checkbox 1:</label>
+              <input type="checkbox" name="checkbox-1" id="checkbox-1" checked>
+            </li>
+            <li>
+              <label for="checkbox-2">Checkbox 2:</label>
+              <input type="checkbox" name="checkbox-2" id="checkbox-2">
+            </li>
+            <li>
+              <label for="checkbox-3">Checkbox 3:</label>
+              <input type="checkbox" name="checkbox-3" id="checkbox-3" disabled>
+            </li>
+          </ul>
+          <ul class="form__user-radio">
+            <li>
+              <label for="radio-1">Radio-button 1:</label>
+              <input type="radio" name="radio-1" id="radio-1" checked>
+            </li>
+            <li>
+              <label for="radio-2">Radio-button 2:</label>
+              <input type="radio" name="radio-2" id="radio-2">
+            </li>
+            <li>
+              <label for="radio-3">Radio-button 3:</label>
+              <input type="radio" name="radio-3" id="radio-3" disabled>
+            </li>
+          </ul>
+          <div class="form__user-message">
+            <label for="user-message">Ваше сообщение:</label>
+              <textarea name="user-message" id="user-message" cols="30" rows="10" placeholder="Можете ничего и не писать"></textarea>
+          </div>
+          <button class="button form__submit-btn" type="submit">Отправить</button>
+          <button class="button form__clear-btn">Отчистить</button>
+        </fieldset>
+      </form>
+
+    </main>
+
+    <footer>
+      <p class="footer__text">Просто футер</p>
+      <ul class="footer__contact-list">
+        <li class="footer__contact-item">Моя почта там и прочее</li>
+        <li class="footer__contact-item">Мб телефон</li>
+      </ul>
+    </footer>
+  </body>
+</html>

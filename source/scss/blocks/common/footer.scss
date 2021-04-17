@@ -1,0 +1,22 @@
+
+.footer {
+  margin-bottom: 15px;
+}
+.footer__text {
+  display: block;
+  margin: 0 0 15px 0;
+
+  @include text(24px, 24px, $black);
+  text-align: center;
+
+  border: 1px solid red;
+}
+.footer__contact-list {
+
+}
+.footer__contact-item {
+  display: block;
+
+  @include text(16px, 20px, $black);
+  text-align: center;
+}

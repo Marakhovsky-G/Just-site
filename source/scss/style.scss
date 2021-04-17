@@ -1,0 +1,38 @@
+
+// шрифты
+@import 'global/fonts.scss';
+
+// переменные
+@import 'global/vars';
+
+// миксины
+@import 'global/mixins';
+
+// Базовые параметры страницы
+@import 'global/scaffolding';
+
+// Общие блоки
+@import 'blocks/common/button.scss';
+@import 'blocks/common/title.scss';
+@import 'blocks/common/nav.scss';
+@import 'blocks/common/footer.scss';
+
+// Главная страница
+@import 'blocks/index/blocks.scss';
+
+// Страница Формы
+@import 'blocks/form/form.scss';
+
+
+
+
+
+
+
+
+
+
+
+
+
+

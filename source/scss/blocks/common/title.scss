@@ -1,0 +1,7 @@
+
+.title {
+  margin-bottom: 20px;
+
+  @include text(36px, 36px, $black);
+  font-weight: 700;
+}
